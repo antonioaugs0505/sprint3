@@ -1,0 +1,29 @@
+.menu{
+    width: 100%;
+    background-color: var(--azul-principal);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.logo-menu{
+    width: 16vw;
+}
+
+.lista-menu{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: max(.8rem, 1.5vw)
+}
+
+.menu-item:hover{
+    color: var(--azul-sec);
+}
