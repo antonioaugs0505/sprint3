@@ -1,0 +1,160 @@
+.dados{
+    background: var(--azul-sec);
+    padding: 50px;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #D2EBFF;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--azul-principal);
+    font-weight: 800;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #815aff75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #635bff;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: max(1rem,1.2vw) ;
+    font-weight: 800;
+    color: var(--azul-principal);
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.6rem;
+    margin-bottom: 1rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--azul-principal);
+}
+
+.btn-continuar button{
+    color: var(--branco);
+    background-color: var(--azul-principal);
+    border: 2px solid var(--branco);
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    padding: 8px 20px;
+ }
+
+ .btn-continuar button a{
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+ }
+
+ .btn-enviar:hover{
+    color: var(--azul-principal);
+    background-color: var(--branco);
+ }
+
+ @media screen and (max-width:1200px){
+    .form{
+        width: 65%;
+    }
+ }
+
+ @media screen and (max-width:992px){
+    .form{
+        width: 85%;
+        
+    }
+
+    .gender-input label {
+        font-size: 1rem;
+    }
+ }
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .input-group {
+        flex-direction: column;
+    }
+
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+
+    .gender-input label {
+        font-size: 1rem;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
+
+    .btn-continuar button{
+
+        font-size: 1rem;
+       
+     }
+    
+}
