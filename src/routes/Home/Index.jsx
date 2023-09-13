@@ -1,4 +1,4 @@
-import guincho from '../../assets/img/guincho.jpg'
+import guincho from '../../assets/img/guincho.png'
 import { Link } from 'react-router-dom'
 
 export default function Home(){

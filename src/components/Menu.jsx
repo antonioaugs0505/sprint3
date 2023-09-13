@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoPorto from "../assets/img/logo-porto.jpg";
+import logoPorto from "../assets/img/logo-porto.png";
 
 export default function Menu() {
   return (
