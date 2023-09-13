@@ -3,102 +3,102 @@ import { Link } from "react-router-dom";
 export default function Solicitacao() {
   return (
     <main className="dados">
-      <div className="form">
+      <div class="form">
             <form action="#">
-                <div className="form-header">
-                    <div className="title">
+                <div class="form-header">
+                    <div class="title">
                         <h1>Dados pessoais</h1>
                     </div>
                 </div>
 
-                <div className="input-group">
-                    <div className="input-box">
-                        <label>Nome</label>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="name">Nome</label>
                         <input id="name" type="text" name="name" placeholder="Digite seu nome" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Sobrenome</label>
+                    <div class="input-box">
+                        <label for="sobrenome">Sobrenome</label>
                         <input id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>E-mail</label>
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
                         <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Telefone</label>
+                    <div class="input-box">
+                        <label for="tel">Telefone</label>
                         <input id="tel" type="tel" name="tel" placeholder="Digite seu telefone" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Data de nascimento</label>
+                    <div class="input-box">
+                        <label for="data">Data de nascimento</label>
                         <input id="date" type="date" name="number" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>CPF</label>
+                    <div class="input-box">
+                        <label for="cpf">CPF</label>
                         <input id="cpf" type="number" name="cpf" placeholder="Ex: 44422233380" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>CEP</label>
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
                         <input id="cep" type="number" name="cep" placeholder="Digite seu CEP" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Estado</label>
+                    <div class="input-box">
+                        <label for="estado">Estado</label>
                         <input id="estado" type="text" name="estado" placeholder="Digite seu estado" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Cidade</label>
+                    <div class="input-box">
+                        <label for="cidade">Cidade</label>
                         <input id="cidade" type="text" name="cidade" placeholder="Digite sua cidade" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Endereço</label>
+                    <div class="input-box">
+                        <label for="end">Endereço</label>
                         <input id="end" type="text" name="end" placeholder="Digite seu endereço" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Número</label>
+                    <div class="input-box">
+                        <label for="numero">Número</label>
                         <input id="numero" type="text" name="numero" placeholder="Digite seu número" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Complemento</label>
+                    <div class="input-box">
+                        <label for="numero">Complemento</label>
                         <input id="complemento" type="text" name="complemento" placeholder="Digite seu completemnto" required/>
                     </div>
 
 
                 </div>
 
-                <div className="gender-inputs">
-                    <div className="gender-title">
+                <div class="gender-inputs">
+                    <div class="gender-title">
                         <h6>Gênero</h6>
                     </div>
 
-                    <div className="gender-group">
-                        <div className="gender-input">
+                    <div class="gender-group">
+                        <div class="gender-input">
                             <input id="female" type="radio" name="gender"/>
-                            <label>Feminino</label>
+                            <label for="female">Feminino</label>
                         </div>
 
-                        <div className="gender-input">
+                        <div class="gender-input">
                             <input id="male" type="radio" name="gender"/>
-                            <label>Masculino</label>
+                            <label for="male">Masculino</label>
                         </div>
 
-                        <div className="gender-input">
+                        <div class="gender-input">
                             <input id="others" type="radio" name="gender"/>
-                            <label>Outros</label>
+                            <label for="others">Outros</label>
                         </div>
 
-                        <div className="gender-input">
+                        <div class="gender-input">
                             <input id="none" type="radio" name="gender"/>
-                            <label>Prefiro não dizer</label>
+                            <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
                 </div>
@@ -108,32 +108,32 @@ export default function Solicitacao() {
             </form>
         </div>
 
-        <div className="form">
+        <div class="form">
             <form action="#">
-                <div className="form-header">
-                    <div className="title">
+                <div class="form-header">
+                    <div class="title">
                         <h1>Dados do veículo</h1>
                     </div>
                 </div>
 
-                <div className="input-group">
-                    <div className="input-box">
-                        <label>Carro</label>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="carro">Carro</label>
                         <input id="carro" type="text" name="carro" placeholder="Digite seu carro" required/>
                     </div>
 
-                    <div className="input-box">
+                    <div class="input-box">
                         <label for="placa">Placa</label>
                         <input id="placa" type="text" name="placa" placeholder="Digite sua placa" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Ano de fabricação</label>
+                    <div class="input-box">
+                        <label for="anofab">Ano de fabricação</label>
                         <input id="anofab" type="number" name="anofab" placeholder="Digite o ano de fabricação" required/>
                     </div>
 
-                    <div className="input-box">
-                        <label>Eixos</label>
+                    <div class="input-box">
+                        <label for="eixos">Eixos</label>
                         <input id="eixps" type="number" name="eixos" placeholder="Digite a quantidade de eixos" required/>
                     </div>
 

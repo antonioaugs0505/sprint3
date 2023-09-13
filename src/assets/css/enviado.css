@@ -1,0 +1,30 @@
+.enviado{
+    width: 100%;
+    background: var(--azul-sec);
+    height: 70vh;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+
+.enviado p{
+    width: 80%;
+    margin: 0 auto ;
+    color: var(--branco);
+    font-size: max(1rem, 2vw);
+}
+
+.voltar
+{
+    color: var(--branco);
+    text-decoration: none;
+    border: 2px solid var(--branco);
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: var(--azul-principal);
+    font-size: 1.4vw;
+    margin-top: 20px;
+}
+
